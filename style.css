@@ -1,0 +1,40 @@
+
+* {
+    border: 1px solid red;
+}
+
+html {
+    background-color:royalblue;
+    padding-top: 10px;
+}
+
+.main{
+    width: 500px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: lightblue;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    padding: 60px;
+    margin: auto;
+}
+
+.recipe-div {
+    margin: 0 auto;
+}
+
+.recipe-link {
+    padding: 20px;
+}
+
+ul {
+    font-size: 30px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    list-style-type: none;
+}
