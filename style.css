@@ -1,9 +1,9 @@
 
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
-html {
+.index-page {
     background-color:royalblue;
     padding-top: 10px;
 }
@@ -19,8 +19,10 @@ html {
 .title {
     text-align: center;
     font-size: 60px;
-    padding: 60px;
+    padding: 40px;
     margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 3px solid grey;
 }
 
 .recipe-div {
@@ -31,10 +33,25 @@ html {
     padding: 20px;
 }
 
-ul {
+.table-of-contents {
     font-size: 30px;
     width: 300px;
     margin: 0 auto;
     padding: 20px;
     list-style-type: none;
+}
+
+.waffles-background {
+    background-color: burlywood;
+}
+
+.subheading {
+    font-size: 30px;
+}
+
+.waffles-pic {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
 }
